@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c302ed6b.chunk.css",
+    "main.js": "/static/js/main.2008013f.chunk.js",
+    "main.js.map": "/static/js/main.2008013f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f294181a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f294181a.js.map",
+    "static/js/2.05de961c.chunk.js": "/static/js/2.05de961c.chunk.js",
+    "static/js/2.05de961c.chunk.js.map": "/static/js/2.05de961c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.62b365a238b456cb9ea7cba9a73aea73.js": "/precache-manifest.62b365a238b456cb9ea7cba9a73aea73.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c302ed6b.chunk.css.map": "/static/css/main.c302ed6b.chunk.css.map",
+    "static/js/2.05de961c.chunk.js.LICENSE": "/static/js/2.05de961c.chunk.js.LICENSE",
+    "static/media/spa-10.png": "/static/media/spa-10.f04ebc13.png",
+    "static/media/spa-11.png": "/static/media/spa-11.df1c650a.png",
+    "static/media/spa-12.png": "/static/media/spa-12.120999b6.png",
+    "static/media/spa-7.png": "/static/media/spa-7.014efad5.png",
+    "static/media/spa-8.png": "/static/media/spa-8.7c5e2f4c.png",
+    "static/media/spa-9.png": "/static/media/spa-9.e8742983.png",
+    "static/media/About.css": "/static/media/spa.28aa6b70.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f294181a.js",
+    "static/js/2.05de961c.chunk.js",
+    "static/css/main.c302ed6b.chunk.css",
+    "static/js/main.2008013f.chunk.js"
+  ]
+}
