@@ -1,18 +1,48 @@
 .background{
-    color: #000;
+    color: #000000;
 }
 
 .about {
+    width: 100%;
     position: relative;
-    padding: 100px 0;
+    padding: 45px;
     text-align: center;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(203, 23, 23);
+    padding: auto;
+}
+
+.about__find  {
+    position: static;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    min-width: 100px;
+    max-width: 700px;
+    height: 15px;
+
+    background-color: rgba(146, 146, 146, 0.519) !important;
+    backdrop-filter: blur(20px);
+    color: #bfbfbffe;
+    font-size: 10px;
+    box-shadow: 3px 3px 60px 1px #000000;
+    transition: background-color 0.3s ease-out
+}
+
+.about__find:focus {
+    background-color: rgba(0, 0, 0, 0.428) !important;
+}
+
+.about__login {
+    position: relative;
+    display: inline-flex;
+    left: 100px;
+    font-size: 24px;
 }
 
 .about__title {
     font-size: 50px;
-    margin-bottom: 30px;
 }
 
 .about__description p {
@@ -22,14 +52,15 @@
 
 .about__bg {
     position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    padding-bottom: 1070pt;
     z-index: -10;
-    background-image: url(../../img/spa.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url(../../img/Bruges-3.jpg);
     filter: brightness(1);
 }

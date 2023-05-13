@@ -3,8 +3,10 @@ import React from 'react';
 import About from '../../components/About/About';
 import PortfolioItem from '../../components/PortfolioItem/PortfolioItem';
 import ContactForm from '../../components/ContactForm/ContactForm';
-
 import works from '../../works';
+import Finder from '../../components/Finder/Finder';
+import Adress from '../../Adress';
+import Items from '../../components/Items/Items';
 
 class HomePage extends React.Component {
     state = {
@@ -26,6 +28,7 @@ class HomePage extends React.Component {
     render() {
         return (
             <div>
+
                 <About title='Tech_Programming'>
                     <p>
                         SPA template on the React JS
@@ -34,11 +37,18 @@ class HomePage extends React.Component {
                     </p>
                 </About>
 
-                <div className='portfolio'>
-                    <div className='container'>
-                        {works.map((work) => (
-                            <PortfolioItem key={work.id} work={work} />
-                        ))}
+                <div>
+                    <Finder></Finder>
+                </div>
+
+                <div className='back'>
+                    <div className='portfolio'>
+                        <div className='container'>
+                            {
+                            Adress.map((Adress) =>
+                            (<Items key={Adress.id} Adres={Adress}/>
+                            ))}
+                        </div>
                     </div>
                 </div>
 

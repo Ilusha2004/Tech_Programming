@@ -12,8 +12,10 @@
     padding: 40px 0;
 }
 
-.portfolio .container {
+.portfolio
+.container {
     display: flex;
+    /* padding-top: 400px; */
     flex-wrap: wrap;
 }
 

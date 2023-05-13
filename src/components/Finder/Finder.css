@@ -1,0 +1,23 @@
+.finder {
+    position: relative;
+    background-size: cover;
+    padding-top: 300px;
+    margin-top: 500px;
+    background-color: rgb(59, 133, 211);
+    box-shadow: 3px 3px 60px 1px #000000;
+}
+
+.finder__find {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(146, 146, 146, 0.519) !important;
+    backdrop-filter: blur(20px);
+    color: #bfbfbffe;
+    box-shadow: 3px 3px 60px 1px #000000;
+    min-width: 100px;
+    max-width: 800px;
+    height: 15px;
+    top: 200px;
+    transform: translate(-50%, -50%);
+}

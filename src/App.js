@@ -12,8 +12,6 @@ class App extends React.Component {
     render() {
         return (
             <div className='app'>
-                <Header brand='Tech_Programming'></Header>
-
                 <main className='main'>
                     <Switch>
                         <Route path='/project/:id' component={ProjectPage} />

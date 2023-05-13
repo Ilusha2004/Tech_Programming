@@ -5,25 +5,10 @@ import { Link } from 'react-router-dom';
 
 function Header(props) {
     return (
-        <header className='header'>
-            <table>
-                <tr>
-                    <td>
-                        <div className='container'>
-                            <Link to='/' className='header-brand'>
-                                {props.brand}
-                            </Link>
-                        </div>
-                    </td>
-                    <td>
-                        <div className='container'>
-                            <Link to='/login' className='header-login'>login</Link>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-
-        </header>
+        <div className='about__head'>
+                <input className='header-find' type="text" size={20}/>
+                <Link className='header-login'>Login</Link>
+        </div>
     );
 }
 
