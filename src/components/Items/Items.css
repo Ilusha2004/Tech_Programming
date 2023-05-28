@@ -15,8 +15,11 @@
 .item {
     /* position: absolute; */
     /* margin: 10px 0; */
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 70px;
     font-size: 20px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .flag {

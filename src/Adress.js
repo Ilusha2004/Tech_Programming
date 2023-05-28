@@ -11,41 +11,41 @@ export default [
     {
         id: 'flag-1',
         screenshot: flag_1,
-        title: "hueta"
+        title: "Country_0"
     },
     {
         id: 'flag-2',
         screenshot: flag_2,
-        title: "hueta1"
+        title: "Country_1"
     },
     {
         id: 'flag-3',
         screenshot: flag_3,
-        title: "hueta3"
+        title: "Country_3"
     },
     {
         id: 'flag-4',
         screenshot: flag_4,
-        title: "hueta4"
+        title: "Country_4"
     },
     {
         id: 'flag-5',
         screenshot: flag_5,
-        title: "hueta5"
+        title: "Country_5"
     },
     {
         id: 'flag-6',
         screenshot: flag_6,
-        title: "hueta6"
+        title: "Country_6"
     },
     {
         id: 'flag-7',
         screenshot: flag_7,
-        title: "hueta7"
+        title: "Country_7"
     },
     {
         id: 'flag-8',
         screenshot: flag_8,
-        title: "hueta8"
+        title: "Country_8"
     }
 ]

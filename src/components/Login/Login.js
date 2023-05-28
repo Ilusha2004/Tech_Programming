@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-
+import React, { useContext, useState } from 'react';
+import { useHistory } from 'react-router-dom';
+import GlobalContext from '../Global/Global';
 import './Login.css';
 
-function Login() {
+function App() {
+  const { globalVariable, setGlobalVariable } = useContext(GlobalContext);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+
+  const history = useHistory();
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
@@ -17,11 +20,17 @@ function Login() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Обработка входа пользователя
+
+    if (username === 'админ') {
+      setGlobalVariable(username); // Обновляем глобальную переменную
+      history.push('/admin');
+    } else {
+      history.push('/');
+    }
   };
 
   return (
-    <Link to={'/login'} className='port'>
+    <div className='port'>
       <div id="centerLayer">
         <span className='social'>
           <button className='social_button_1'></button>
@@ -29,20 +38,20 @@ function Login() {
         </span>
         <form onSubmit={handleSubmit} className='background'>
           <label className='login-name'>
-              Имя пользователя:
-              <input type="text" value={username} onChange={handleUsernameChange} />
+            Имя пользователя:
+            <input type="text" value={username} onChange={handleUsernameChange} />
           </label>
-        <p>
-        <label className='login-name'>
-            Пароль:
-            <input type="password" value={password} onChange={handlePasswordChange} />
-        </label></p>
-        <p><button className='buttons'>Войти</button>
-          <Link to='/' className='login-enter'>Войти</Link></p>
+          <p>
+            <label className='login-name'>
+              Пароль:
+              <input type="password" value={password} onChange={handlePasswordChange} />
+            </label>
+            <button type="submit" className='login-enter'>Войти</button>
+          </p>
         </form>
-        </div>
-    </Link>
+      </div>
+    </div>
   );
 }
 
-export default Login;
+export default App;
