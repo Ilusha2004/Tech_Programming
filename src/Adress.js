@@ -1,11 +1,11 @@
-import flag_1 from './img/flags/icons8-afghanistan-flag-48.png';
-import flag_2 from './img/flags/icons8-aland-islands-circular-48.png';
-import flag_3 from './img/flags/icons8-albania-circular-48.png';
-import flag_4 from './img/flags/icons8-american-samoa-circular-48.png';
-import flag_5 from './img/flags/icons8-anguilla-circular-48.png';
-import flag_6 from './img/flags/icons8-алжир-48.png';
-import flag_7 from './img/flags/icons8-ангола-48.png';
-import flag_8 from './img/flags/icons8-андорра-48.png';
+import flag_1 from './img/screenshots/icons8-afghanistan-flag-48.png';
+import flag_2 from './img/screenshots/icons8-aland-islands-circular-48.png';
+import flag_3 from './img/screenshots/icons8-albania-circular-48.png';
+import flag_4 from './img/screenshots/icons8-american-samoa-circular-48.png';
+import flag_5 from './img/screenshots/icons8-anguilla-circular-48.png';
+import flag_6 from './img/screenshots/icons8-алжир-48.png';
+import flag_7 from './img/screenshots/icons8-ангола-48.png';
+import flag_8 from './img/screenshots/icons8-андорра-48.png';
 
 export default [
     {
